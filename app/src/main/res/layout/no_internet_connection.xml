@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/light">
+
+    <include
+        android:id="@+id/fragment_toolbar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/fragment_toolbar"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/no_internet_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="30dp"
+            android:text="No internet connection"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/no_internet_refresh_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/no_internet_textView"
+            android:layout_centerHorizontal="true"
+            android:text="Refresh"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

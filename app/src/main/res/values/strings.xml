@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Windpic</string>
+    <string name="facebook_app_id">1017406354968627</string>
+    <string name="demo_min_label">Min</string>
+    <string name="demo_max_label">Max</string>
+    <string name="login_text">A new way of meeting people nearby. Engage in a chat with them by sharing your snaps</string>
+</resources>
